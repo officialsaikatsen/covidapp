@@ -1,0 +1,51 @@
+
+  #card{margin:0px auto;font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    margin-top:10px;
+padding:35px;color:rgb(107, 107, 105);}
+
+ #card .image {position:relative;background: rgb(243, 242, 240);color: black;
+display:inline-block;max-width: 100%;text-align: center;
+padding: 10px 10px;border-radius: 10px 10px;
+}
+#select{width:70px;font-size:large;overflow:auto;position: absolute;top:10px;}
+h5{position: absolute;top:25px;}
+body{min-height: 800px;
+
+background: linear-gradient(90deg,rgb(226, 223, 223),rgba(0, 0, 0, 0.568));
+
+}
+#card #btn{display:inline-block;color:black;
+padding:10px 10px 10px 10px;position:relative;
+width:100%;max-width:fit-content;
+font-size:70%;border-radius: 10px 10px;
+text-decoration: none;
+}
+@keyframes zo{0%{transform:scale(2);opacity:1;}
+}
+section{max-width:1500px;
+display:flex;flex-direction:row;
+
+
+}
+#btn{border:0px white 3px;box-shadow:10px 10px rgba(235, 227, 227, 0.801);
+position: absolute;top:-20px;
+}
+h2{font-size:30px;}
+#btn:hover{background-color: chartreuse;animation: zo 0.0s ease-in-out;}
+#card .image img{position:relative;padding:0px;background: cornsilk;color: black;
+display:inline-block;max-width: 100%;}
+ #card:hover .image{overflow: hidden;
+   padding: 20px;box-shadow: 3px 3px rgb(202, 199, 199);
+ transform:  rotate(-15deg) scale(1);}
+
+ @media (max-width:600px) {section{display:flex;flex-direction: column;}
+
+ #card1 .image img{max-width:70px;}
+
+}
+
+ #card1 .image img{position:relative;padding:0px;background: rgba(255, 248, 220, 0.007);color: black;
+    display:inline-block;max-width:15%;}
+
+  #c{font-weight: 600;font-size: larger;}
